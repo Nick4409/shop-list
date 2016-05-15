@@ -6,87 +6,78 @@
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="main.css"/>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 <div class="main-container">
     <div class="wrapper-container">
-        <div class="col-xs-0 col-sm-0 col-md-1"></div>
-        <div class="add-list-container col-xs-11 col-sm-11 col-md-6 paddingless">
+
+        <div class="add-list-container ">
             <div class="add-list">
                 <!-- line for adding elements-->
 
-                <div class="add-item-container col-xs-12 col-md-12">
+                <div class="add-item-container">
                     <input class="name-input" type="text" placeholder="Назва товару"><button class="add-button white">Додати</button>
                 </div>
 
 
-                <div class="table-responsive col-xs-12 col-md-12 paddingless">
-                    <table class="table">
-                        <div class="item">
-                            <tr>
-                                <td class="item-title">
-                                    <span contenteditable="true" class="title">Печиво</span>
-                                </td>
-                                <td class="item-add">
-                                    <button class="red-circle-button glyphicon glyphicon-minus white red-shadow"></button>
-                                    <span class="count-lable">1</span>
-                                    <button class=" green-circle-button glyphicon glyphicon-plus white green-shadow"></button>
-                                </td>
-                                <td class="item-bought">
-                                    <button class="bought-button">Куплено</button>
-                                    <button class="delete-button glyphicon glyphicon-remove white red-shadow"></button>
-                                </td>
-
-                            </tr>
+                <div class="table paddingless">
+                   <div class="item">
+                        <div class="item-title">
+                            <span contenteditable="true" class="title">Печиво</span>
                         </div>
-                        <div class="item">
-                            <tr>
-                                <td class="item-title">
-                                    <span contenteditable="true" class="title">Печиво</span>
-                                <td class="item-add">
-                                    <button class="red-circle-button glyphicon glyphicon-minus white red-shadow"></button>
-                                    <span class="count-lable">1</span>
-                                    <button class=" green-circle-button glyphicon glyphicon-plus white green-shadow"></button>
-                                </td>
-                                <td class="item-bought">
-                                    <button class="bought-button">Куплено</button>
-                                    <button class="delete-button glyphicon glyphicon-remove white red-shadow"></button>
-                                </td>
-
-                            </tr>
+                        <div class="item-add">
+                            <button class="red-circle-button glyphicon glyphicon-minus white red-shadow"></button>
+                            <span class="count-lable">1</span>
+                            <button class=" green-circle-button glyphicon glyphicon-plus white green-shadow"></button>
                         </div>
-                        <div class="item">
-                            <tr>
-                                <td class="item-title">
-                                    <span contenteditable="true" class="title">Сир</span>
-                                <td class="item-add">
-                                    <button class="red-circle-button glyphicon glyphicon-minus white red-shadow"></button>
-                                    <span class="count-lable">1</span>
-                                    <button class=" green-circle-button glyphicon glyphicon-plus white green-shadow"></button>
-                                </td>
-                                <td class="item-bought">
-                                    <button class="bought-button">Куплено</button>
-                                    <button class="delete-button glyphicon glyphicon-remove white red-shadow"></button>
-                                </td>
-
-                            </tr>
+                        <div class="item-bought">
+                            <button class="bought-button">Куплено</button>
+                            <button class="delete-button glyphicon glyphicon-remove white red-shadow"></button>
                         </div>
-                    </table>
+                   </div>
+                    <div class="item">
+                        <div class="item-title">
+                            <span contenteditable="true" class="title">Печиво</span>
+                        </div>
+                        <div class="item-add">
+                            <button class="red-circle-button glyphicon glyphicon-minus white red-shadow"></button>
+                            <span class="count-lable">1</span>
+                            <button class=" green-circle-button glyphicon glyphicon-plus white green-shadow"></button>
+                        </div>
+                        <div class="item-bought">
+                            <button class="bought-button">Куплено</button>
+                            <button class="delete-button glyphicon glyphicon-remove white red-shadow"></button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-title">
+                            <span contenteditable="true" class="title">Сир</span>
+                        </div>
+                        <div class="item-add">
+                            <button class="red-circle-button glyphicon glyphicon-minus white red-shadow"></button>
+                            <span class="count-lable">1</span>
+                            <button class=" green-circle-button glyphicon glyphicon-plus white green-shadow"></button>
+                        </div>
+                        <div class="item-bought">
+                            <button class="bought-button">Куплено</button>
+                            <button class="delete-button glyphicon glyphicon-remove white red-shadow"></button>
+                        </div>
+                    </div>
                 </div>
 
             </div>
         </div>
 
-        <div class="to-bye-list-container col-xs-11 col-sm-6 col-md-3">
-            <div class="to-bye-list col-md-12">
+        <div class="to-bye-list-container ">
+            <div class="to-bye-list">
                 <div class="to-bought-title-section">
                     Залишилося
                 </div>
                 <div class="to-bought-elements-section">
-                    <span class="to-bought-element">Помідори <div class="amount-of-element-title">1</div></span>
-                    <span class="to-bought-element">Печиво <div class="amount-of-element-title">1</div></span>
-                    <span class="to-bought-element">Сир <div class="amount-of-element-title">1</div></span>
+                    <label class="to-bought-element">Помідори <label class="amount-of-element-title">1</label></label>
+                    <label class="to-bought-element">Печиво <label class="amount-of-element-title">1</label></label>
+                    <label class="to-bought-element">Сир <label class="amount-of-element-title">1</label></label>
                 </div>
                 <div class="bought-title-section">
                     Куплено
@@ -97,8 +88,8 @@
             </div>
         </div>
     </div>
-
-
 </div>
+
+
 </body>
 </html>

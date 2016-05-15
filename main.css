@@ -10,22 +10,39 @@ body {
     margin: 0%;
 }
 .wrapper-container{
-    padding-top: 2%;
+    width: 100%;
+    padding: 5%;
 
 }
 .paddingless{
     padding: 0%;
 }
+.add-list-container{
+    display: inline-flex;
+    margin: 2%;
+    padding: 0%;
+    width: 55%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px #aeaeae;
+}
 .to-bye-list-container{
+    display: inline-flex;
+
+    width: 25%;
     margin: 2%;
     padding: 0%;
     box-shadow: 3px 3px 2px #aeaeae;
 }
 .to-bye-list{
+    width: 100%;
     background-color: #ffffff;
     border-radius: 5px;
     padding: 0%;
     margin: 0%;
+}
+.table{
+    width: 100%;
 }
 .bought-title-section{
     padding: 4%;
@@ -72,31 +89,38 @@ body {
     color: white;
     background-color: #F2711C;
 }
-.add-list-container{
-    margin: 2%;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 3px 3px 2px #aeaeae;
-}
+
 
 .add-item-container{
     width: 100%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding: 2%;
+
 }
 .item-title{
+    display: inline-block;
     padding-left: 1%;
-    width: 35%;
+    width: 25%;
 }
 .item-add{
+    text-align: center;
+    display: inline-block;
     width: 40%;
 }
+
+.item{
+    padding: 1%;
+    padding-right: 0%;
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid #DADADA;
+}
+
 .item-bought{
-   width: 25%;
+    text-align: right;
+    display: inline-block;
+    width: 30%;
 }
 .name-input{
-    position: relative;
-    top: 1px;
     width: 78%;
     height: 35px;
     padding: 1%;
@@ -204,4 +228,5 @@ body {
 .green-shadow{
     border-bottom: 2px solid #1b6f1b;
 }
+
 
