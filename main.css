@@ -18,28 +18,22 @@ body {
     padding: 0%;
 }
 .add-list-container{
-    display: inline-flex;
-    margin: 2%;
-    padding: 0%;
-    width: 55%;
+    display: inline-block;
+    margin: 15px;
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 3px 3px 2px #aeaeae;
 }
 .to-bye-list-container{
-    display: inline-flex;
-
-    width: 25%;
-    margin: 2%;
-    padding: 0%;
+    display: inline-block;
+    margin: 15px;
     box-shadow: 3px 3px 2px #aeaeae;
 }
 .to-bye-list{
+    display: inline-block;
     width: 100%;
     background-color: #ffffff;
     border-radius: 5px;
-    padding: 0%;
-    margin: 0%;
 }
 .table{
     width: 100%;
@@ -74,18 +68,20 @@ body {
     height: 25px;
     border-radius: 5px;
     text-align: center;
-    font-size: 12px;
-    padding: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 4px;
     display: inline-block;
     background: #E8E8E8;
 }
 .amount-of-element-title{
-    width: 20px;
-    height: 20px;
-    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
     border-radius: 100%;
-    padding: 6px;
-    padding-top: 3px;
+    padding: 3px;
+
+    font-size: 10px;
     color: white;
     background-color: #F2711C;
 }
@@ -121,8 +117,10 @@ body {
     width: 30%;
 }
 .name-input{
+    position: relative;
+    top: 1px;
     width: 78%;
-    height: 35px;
+    height: 2.5em;
     padding: 1%;
     border: 1px solid #DADADA;
     border-right: 1px solid #1a6aa6;
@@ -132,7 +130,7 @@ body {
 }
 .add-button{
     width: 20%;
-    height: 35px;
+    height: 2.5em;
 
     font-weight: bold;
     border-bottom-right-radius: 3px;
@@ -153,8 +151,8 @@ body {
 }
 .bought-button{
     text-align:center;
-    width: 100px;
-    height: 30px;
+    width: 8em;
+    height: 2.5em;
     font-size: 12px;
     font-weight: 500;
     font-family: Arial;
@@ -168,8 +166,8 @@ body {
 }
 .delete-button{
     text-align:center;
-    width: 30px;
-    height: 30px;
+    width: 3.5em;
+    height: 3.5em;
     font-size: 8px;
     background: #DB2828;
     border: none;
@@ -182,8 +180,8 @@ body {
 .green-circle-button{
     cursor: pointer;
     text-align:center;
-    width: 30px;
-    height: 30px;
+    width: 3.5em;
+    height: 3.5em;
     border-radius: 100%;
     font-size: 8px;
     border: none;
@@ -195,8 +193,8 @@ body {
 .red-circle-button{
     cursor: pointer;
     text-align:center;
-    width: 30px;
-    height: 30px;
+    width: 3.5em;
+    height: 3.5em;
     font-size: 8px;
     border-radius: 100%;
     border: none;
@@ -207,11 +205,13 @@ body {
 }
 
 .count-lable{
-    width: 24px;
-    height: 24px;
+    width: 1.6em;
+    height: 1.6em;
     border-radius: 10%;
     background: #E8E8E8;
-    padding: 1px;
+    padding: 2px;
+    position: relative;
+    top: 0.25em;
     border: none;
     text-align: center;
     display: inline-block;
@@ -227,6 +227,26 @@ body {
 
 .green-shadow{
     border-bottom: 2px solid #1b6f1b;
+}
+
+.line {
+    padding: 75px;
+    min-width: 800px;
+    max-width: 1200px;
+
+}
+.column-left {
+    display: inline-block;
+    width: 70%;
+    float: left;
+
+}
+.column-right {
+    display: inline-block;
+    width: 30%;
+    float: left;
+
+
 }
 
 
